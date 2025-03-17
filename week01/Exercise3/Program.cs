@@ -14,7 +14,7 @@ class Program
 
         int guess = -1;
         int attempts = 0;
-
+    
         while (guess != number)
         {
 
@@ -40,6 +40,6 @@ class Program
 
         }
 
-        Console.WriteLine ($"You did {attempts}!");
+        Console.WriteLine ($"You did: {attempts} attempts.");
     }
 }
